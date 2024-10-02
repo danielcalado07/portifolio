@@ -1,0 +1,175 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #010d27;
+}
+.header{
+    padding: 0;
+    background-color: #010714;
+    height: 60px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.6);
+    border-bottom: 3px solid #16bd16;
+    position: fixed;
+    width: 100%;
+}
+
+.img_idioma, .img_tela{
+    width: 20px;
+}
+
+.nav{
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+url{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.background{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    margin-top: 60px;
+}
+
+.section{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    height: 200px;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-top: 20px;
+}
+
+.info_boas_vidas{
+    height: 200px;
+}
+
+.titulo{
+    color: white;
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
+
+.subTitulo{
+    color: #16bd16;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 20px;
+    margin-top: 0px;
+}
+
+.foto_info{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+.foto{
+    width: auto;
+    height: 10%;
+    margin: 0;
+    padding: 0;
+}
+
+.info_sobre_mim, .habilidades_tecnicas{
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    display: flex;
+    flex-direction: column;
+    padding-left: 10%;
+    padding-right: 10%; 
+    margin-top: 200px;
+}
+
+.titulo_dois{
+    color: #ffffff;
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+}
+
+.texto{
+    color: white;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.texto span{
+    color: #16bd16;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.contatos{
+    display: flex;
+    margin-top: 10px;
+}
+
+.curriculo{
+    background-color: #16bd16;
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    margin-right: 20px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.contato_email{
+    font-size: 20px;
+    padding: 5px;
+    color: #ffffff;
+    border-radius: 20px;
+    border: solid, 2px, #16bd16;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.habilidades{
+    display: grid;
+    grid-template-columns:  20% 20% 20% 20% 20%;
+    margin-top: 70px;
+    width: 100%;
+}
+
+.habilidade{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+}
+.habilidade img{
+    width: 100px;
+    height: 100px;
+}
+
+.habilidade p{
+    color: white;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
