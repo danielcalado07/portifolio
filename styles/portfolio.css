@@ -40,19 +40,22 @@ url{
     padding: 0;
     margin: 0;
     margin-top: 60px;
+    margin-bottom: 60px;
 }
 
 .section{
     display: grid;
     grid-template-columns: 50% 50%;
-    height: 200px;
     padding-left: 10%;
     padding-right: 10%;
     margin-top: 20px;
 }
 
-.info_boas_vidas{
-    height: 200px;
+.infoboasvindas{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    flex-direction: column;
 }
 
 .titulo{
@@ -61,6 +64,7 @@ url{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin-left: 20px;
     margin-bottom: 5px;
+    margin-top: 0px;
 }
 
 .subTitulo{
@@ -73,18 +77,17 @@ url{
 
 .foto_info{
     display: flex;
-    justify-content: center;
-    padding: 30px;
+    justify-content: end;
+    height: 300px;
 }
 
 .foto{
-    width: auto;
-    height: 10%;
+    height: 100%;
     margin: 0;
     padding: 0;
 }
 
-.info_sobre_mim, .habilidades_tecnicas{
+.info_sobre_mim, .habilidades_tecnicas, .experiencias{
     align-items: center;
     justify-content: center;
     justify-items: center;
@@ -92,7 +95,8 @@ url{
     flex-direction: column;
     padding-left: 10%;
     padding-right: 10%; 
-    margin-top: 200px;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 .titulo_dois{
@@ -100,6 +104,7 @@ url{
     font-size: 40px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin: 0;
+    text-align: center;
 }
 
 .texto{
@@ -130,6 +135,7 @@ url{
     width: 150px;
     display: flex;
     justify-content: center;
+    align-items: center;
     margin-right: 20px;
     margin-left: 20px;
     cursor: pointer;
@@ -145,13 +151,14 @@ url{
     width: 150px;
     display: flex;
     justify-content: center;
+    align-items: center;
     cursor: pointer;
 }
 
 .habilidades{
     display: grid;
     grid-template-columns:  20% 20% 20% 20% 20%;
-    margin-top: 70px;
+    margin-top: 50px;
     width: 100%;
 }
 
@@ -161,10 +168,19 @@ url{
     justify-items: center;
     align-items: center;
     flex-direction: column;
+    margin-top: 30px;
 }
 .habilidade img{
     width: 100px;
     height: 100px;
+    transition: filter 0.5s ease-in-out;
+    padding: 10px;
+}
+
+.habilidade img:hover{
+    width: 120px;
+    height: 120px;
+    padding: 0px;
 }
 
 .habilidade p{
@@ -172,4 +188,47 @@ url{
     font-size: 20px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: center;
+}
+
+.section2{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-top: 80px;
+}
+
+.texto_funcao{
+    color: white;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+    padding: 0;
+    margin-top: 10px;
+}
+
+.texto_empresa{
+    color: #16bd16;
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+.experiencia1, .experiencia2, .experiencia3, .experiencia4{
+    padding: 10px;
+    cursor: pointer;
+
+}
+
+.experiencia1:hover, .experiencia2:hover, .experiencia3:hover, .experiencia4:hover{
+    background-color: #16bd16;
+    transition: background-color 0.5s ease-in-out;
+    .texto_funcao{
+        color: #000000;
+    }
+    .texto_empresa{
+        color: #ffffff;
+    }
 }
